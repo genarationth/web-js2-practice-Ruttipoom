@@ -1,3 +1,4 @@
+//challenge1
 let birth ;
 let future ;
 
@@ -46,11 +47,14 @@ let me = {
     
 }
 
+//challenge2
+
 inFormation = (`Hi, my name is ${me.NAME}. I live in ${me.TU} and enjoy ${me.Hobby}.`);
 console.log(`Hi, my name is ${me.NAME}. I live in ${me.TU} and enjoy ${me.Hobby}.`)
 
 document.getElementById("sayME").innerHTML = inFormation;
 
+//function down here isn't re-correct yet.
 /*function aboutme() {
     inFormation = (`Hi, my name is ${me.NAME}. I live in ${me.TU} and enjoy ${me.Hobby}.`);
     document.getElementById("sayME").innerHTML = inFormation;
